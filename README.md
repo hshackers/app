@@ -2,7 +2,9 @@
 
 Our meetup app. Powered by @cordova, special thanks to @thinkmill.
 
-# Installation
+Grab a release: https://github.com/hshackers/app/releases
+
+## Installation
 
 Dependencies: [node.js](http://nodejs.org)/[io.js](http://iojs.org)
 
@@ -63,3 +65,10 @@ Platform-specific Dependencies: XCode, Android SDK, Firefox Developer Edition, W
   cordova run android
   cordova run firefoxos
   ```
+
+## Roadmap
+
+- [ ] Mentor directory
+- [ ] Chipotle and food settings
+- [ ] Geofenced notifications
+- [ ] Support for multiple cities
