@@ -1,0 +1,65 @@
+#view-signin {
+	.titlebar {
+		background: #000;
+		border-bottom-color: #000;
+	}
+	.container {
+		background: #000;
+		.btn-service {
+			position: absolute;
+			width: 100%;
+			top: 0px;
+			.action {
+				width: 100%;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+		}
+		.btn-github {
+			z-index: 10;
+			background-color: #1b2329;
+			.action {
+				background-color: #1b2329;
+				background-image: url('../img/ui/icons/github.png');
+				background-size: 44.5px 43px;
+				&.pressed { background-color: darken(#1b2329, 5%); }
+			}
+		}
+		.btn-facebook {
+			z-index: 20;
+			background-color: #3664a2;
+			.action {
+				background-image: url('../img/ui/icons/facebook.png');
+				background-size: 41.5px 41.5px;
+				&.pressed { background-color: darken(#3664a2, 5%); }
+			}
+		}
+		.btn-google {
+			z-index: 30;
+			background-color: #3988e5;
+			.action {
+				background-image: url('../img/ui/icons/google.png');
+				background-size: 43px 41px;
+				&.pressed { background-color: darken(#3988e5, 5%); }
+			}
+		}
+		.btn-twitter {
+			z-index: 40;
+			background-color: #02a9ef;
+			.action {
+				background-image: url('../img/ui/icons/twitter.png');
+				background-size: 41.5px 34px;
+				&.pressed { background-color: darken(#02a9ef, 5%); }
+			}
+		}
+		.btn-email {
+			z-index: 50;
+			background-color: #f0efe9;
+			.action {
+				background-image: url('../img/ui/icons/email.png');
+				background-size: 36px 38px;
+				&.pressed { background-color: darken(#f0efe9, 5%); }
+			}
+		}
+	}
+}

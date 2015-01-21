@@ -1,0 +1,33 @@
+#view-loading {
+	.gradient {
+		.fill;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		#gradient .vertical(rgba(38,41,51,1) 0%, rgba(38,41,51,0.80) 100%);
+		z-index: 1;
+	}
+	.container {
+		
+		z-index: 2;
+		
+		.logo {
+			position: absolute;
+			top: 0px;
+			left: 50%;
+			
+			width: 115.5px;
+			height: 115.5px;
+			
+			background-image: url('../img/logos/hshackers.png');
+			background-size: 115.5px 115.5px;
+			
+			margin-left: -57.75px;
+			margin-top: 31.25px;
+			
+			&.pressed {
+				opacity: 0.8;
+			}
+		}
+	}
+}

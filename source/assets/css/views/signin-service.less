@@ -1,0 +1,60 @@
+#view-signin-service {
+	color: #000;
+	
+	.titlebar {
+		.title {
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 30px;
+		}
+	}
+	
+	.container {
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		.form {
+			margin-bottom: 20px;
+			.line {
+				&:last-of-type {
+					border-bottom-color: transparent;
+				}
+			}
+		}
+		.btn-text {
+			margin-bottom: 5px;
+		}
+	}
+	
+	.footer {
+		width: 100%;
+		position: absolute;
+		bottom: 0px;
+		.box-sizing(border-box);
+	}
+	
+	&.github {
+		background-color: @github;
+		.titlebar { border-bottom-color: @github; }
+		.title { background-image: url('../img/ui/icons/github.png'); }
+		.action-submit { background-color: lighten(@github, 15%); color: #fff; }
+	}
+	&.facebook {
+		background-color: @facebook;
+		.titlebar { border-bottom-color: @facebook; }
+		.title { background-image: url('../img/ui/icons/facebook.png'); }
+		.action-submit { background-color: lighten(@facebook, 15%); color: #fff; }
+	}
+	&.google {
+		background-color: @google;
+		.titlebar { border-bottom-color: @google; }
+		.title { background-image: url('../img/ui/icons/google.png'); }
+		.action-submit { background-color: lighten(@google, 15%); color: #fff; }
+	}
+	&.twitter {
+		background-color: @twitter;
+		.titlebar { border-bottom-color: @twitter; }
+		.title { background-image: url('../img/ui/icons/twitter.png'); }
+		.action-submit { background-color: lighten(@twitter, 15%); color: #fff; }
+	}
+}

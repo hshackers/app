@@ -1,0 +1,117 @@
+#view-home.view
+	.statusbar
+	.corners
+		.btn-menu: .cross: span
+		.btn-logo
+		.btn-notifications: img(src='img/ui/icon-alarm-white.svg')
+	.home
+		.container
+			.btn-about.logo
+			.meetup
+				.btn-meetup
+					.meetup-state
+					.meetup-days
+					.meetup-name
+					.meetup-date
+					.meetup-place
+				span.actions
+					.left.btn-talks
+						span.icon
+						span.text View Talks
+					.right.btn-calendar
+						span.icon
+							.number
+							img(src='img/ui/icon-calendar-white.svg')
+						span.text &nbsp;
+			.remaining: .text
+			.states
+				.rsvp
+					.btn-plain.btn-left
+						.text Attending
+						.icon: img(src='img/ui/icon-close-black.svg')
+					.divider
+					.btn-plain.btn-right
+						.text Nope
+						.icon: img(src='img/ui/icon-close-black.svg')
+				.sold-out
+					.btn-plain.dark-grey: .text Tickets sold out
+				.soon
+					.btn-plain.dark-grey: .text Next meetup soon
+			.squid
+				.wiggler: img(src='img/ui/squid.svg', width=65)
+	.menu
+		.buttons
+			.btn-join.button: .wrap Join
+			.btn-signout.button: .wrap Sign out
+			.btn-about.button: .wrap About
+			.btn-credits.button: .wrap Credits
+		.about
+			.container.scrollable
+				.logo
+				.text
+					p <strong>On the second Saturday of every month</strong>, some of Philly’s most talented and enthusiastic high school programmers, designers, engineers, and entrepreneurs come together to share ideas, techniques and stories, with a fine selection of guest speakers.
+					p Our website and app showcase what can be done with Node.js, from the browser to the server to your mobile, open sourced and made with love by Tom Walker, Victor Lourng, and the team over at <span class="link" data-link="http://thinkmill.com.au">Thinkmill</span>.
+			.footer
+				.btn-plain.light-blue.close
+		.credits
+			.container.scrollable
+				.logos: .image
+				.text
+					.section
+						.title Built by
+						ul.people
+							li
+								.circle
+								.person(class="link" data-link="http://twitter.com/bladey")
+									span.tom.image
+									span.name Tom Walker
+							li
+								.circle
+								.person(class="link" data-link="http://twitter.com/lablayers")
+									span.victor.image
+									span.name Victor Lourng
+						.title Special thanks
+						ul.people
+							li
+								.circle
+								.person(class="link" data-link="http://twitter.com/borisbozic")
+									span.boris.image
+									span.name Boris Bozic
+							li
+								.circle
+								.person(class="link" data-link="http://twitter.com/JedWatson")
+									span.jed.image
+									span.name Jed Watson
+							li
+								.circle
+								.person(class="link" data-link="http://twitter.com/JossMackison")
+									span.joss.image
+									span.name Joss Mackison
+							li
+								.circle
+								.person(class="link" data-link="http://twitter.com/tuan23")
+									span.tuan.image
+									span.name Tuan Hoang
+					.section
+						.title Built with
+						ul.built-with
+							li <span class="link" data-link="http://cordova.apache.org">Cordova</span>
+							li <span class="link" data-link="http://velocityjs.org">Velocity.js</span>
+							li <span class="link" data-link="http://velocityjs.org">jQuery</span>
+							li <span class="link" data-link="http://backbonejs.org">Backbone.js</span>
+							li <span class="link" data-link="http://keystonejs.com">KeystoneJS</span>
+					.section
+						.title Open source
+						p This app is open source and available on <span class="link underline" data-link="http://github.com/hshackers/app">GitHub</span>.
+					.section
+						.title License
+						p The MIT License (MIT)
+						p Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+						p The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+						p THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+			.footer
+				.btn-plain.light-blue.close
+	.footer
+		.btn-plain.light-blue.close
+	.gradient
+	.background: .image

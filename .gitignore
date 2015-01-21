@@ -1,0 +1,5 @@
+.cordova/
+www/
+platforms/
+source/grunt/node_modules/
+secrets/

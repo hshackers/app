@@ -1,0 +1,59 @@
+#view-signin-email.view
+	.titlebar
+		.statusbar
+		.wrap
+			.btn-right.black
+				.inner
+					.label Cancel
+			.title @
+	//- Signin
+	.signin.container.scrollable
+		.form
+			.wrap
+				.line
+					input(type='email', id='view-signin-email-field-signin-email', placeholder='Email Address', autocomplete='off')
+				.line
+					input(type='password', id='view-signin-email-field-signin-password', placeholder='Password', autocomplete='off')
+		.action-signup.btn-text: .pill
+			span New kid on the block? Sign up
+			span.icon
+		.action-recover.btn-text: .pill
+			span I forgot my password
+			span.icon
+		.footer
+			.action-submit.btn-plain.light-green Login
+	//- Signup
+	.signup.container.scrollable
+		.form
+			.wrap
+				.line
+					input(type='text', id='view-signin-email-field-signup-firstName', placeholder='First Name', autocomplete='off')
+				.line
+					input(type='text', id='view-signin-email-field-signup-lastName', placeholder='Last Name', autocomplete='off')
+				.line
+					input(type='email', id='view-signin-email-field-signup-email', placeholder='Email Address', autocomplete='off')
+				.line
+					input(type='password', id='view-signin-email-field-signup-password', placeholder='Password', autocomplete='off')
+				.line
+					input(type='url', id='view-signin-email-field-signup-website', placeholder='Website', autocomplete='off')
+				.line.select
+					.label Get alerts &amp; notifications
+					.switcher.on
+						input(id='view-signin-email-field-signup-alertsNotifications', type='hidden', value='yes', autocomplete='off')
+		.action-signin.btn-text: .pill
+			span Already have an account? Sign in
+			span.icon
+		.footer
+			.action-submit.btn-plain.light-green Submit
+	//- Recover
+	.recover.container.scrollable
+		.form
+			.wrap
+				.line
+					input(type='email', id='view-signin-email-field-recover-email', placeholder='Email Address', autocomplete='off')
+		.action-signin.btn-text: .pill
+			span All good? Sign in
+			span.icon
+		.footer
+			.action-submit.btn-plain.light-green Submit
+
