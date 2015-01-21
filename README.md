@@ -68,7 +68,11 @@ Platform-specific Dependencies: XCode, Android SDK, Firefox Developer Edition, W
 
 ## Roadmap
 
+- [x] Meetup notifications
+- [ ] Launch
 - [ ] Mentor directory
 - [ ] Chipotle and food settings
 - [ ] Geofenced notifications
 - [ ] Support for multiple cities
+- [ ] Attendee list
+- [ ] Checkin tools
