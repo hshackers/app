@@ -85,39 +85,39 @@
     },
     "installed_plugins": {
         "de.appplant.cordova.plugin.local-notification": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         },
         "hu.dpal.phonegap.plugins.SpinnerDialog": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         },
         "org.apache.cordova.console": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         },
         "org.apache.cordova.device-motion": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         },
         "org.apache.cordova.dialogs": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         },
         "org.apache.cordova.inappbrowser": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         },
         "org.apache.cordova.network-information": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         },
         "org.apache.cordova.splashscreen": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         },
         "org.apache.cordova.vibration": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         },
         "uk.co.ilee.shake": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         }
     },
     "dependent_plugins": {
         "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.phonegap.helloworld"
+            "PACKAGE_NAME": "org.hshackers.app"
         }
     }
 }
